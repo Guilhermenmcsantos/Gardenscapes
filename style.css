@@ -1,0 +1,68 @@
+#video{
+    border-radius: 15px;
+    margin: auto;
+}
+article{
+    background-color: whitesmoke;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+article * {
+    padding: 5px;
+}
+article > header > h2 {
+    background-color: lightslategrey;
+    color: whitesmoke;
+    margin: 0px;
+    text-align: center;
+}
+article > h3 {
+    text-align: center;
+    color: black;
+    font-family: 20px;
+}
+nav{
+    background-color: burlywood;
+}
+html{
+    background-color: burlywood;
+}
+footer{
+    background-color: black;
+    color: white;
+    border:5px solid rgb(0, 0, 0);
+}
+:link {
+    color:red;
+}
+:visited {
+    color: rgb(0, 157, 255);
+}
+h2:hover {
+    animation-name: nina;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+
+}
+@keyframes nina {
+    10%{color: green}
+    20%{color: greenyellow}
+    30%{color: yellow}
+    40%{color: orange}
+    50%{color: orangered}
+    60%{color: red}
+    70%{color: lightgreen}
+    100%{color:white}
+}
+a:hover {
+    animation-name: pedrita;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes pedrita {
+    50%{color:greenyellow;}
+    100%{color:tomato}
+}
